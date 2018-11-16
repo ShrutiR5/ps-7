@@ -17,11 +17,34 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+ a {
+   padding-right: 15px;
+ }
 
 .App-link {
   color: #61dafb;
 }
 
+#about h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: teal;
+}
+
+#about img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+ p {
+ padding-top: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  size: 40px;
+  text-align: center;
+ }
+ 
+ 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
