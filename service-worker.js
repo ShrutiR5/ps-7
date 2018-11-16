@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/shrutir/ps7/precache-manifest.60164aebdc4b64412dcf7423c640602b.js"
+  "/shrutir/ps-7/precache-manifest.d00b8c17b935af6b00613fa972cc2f77.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/shrutir/ps7/index.html", {
+workbox.routing.registerNavigationRoute("/shrutir/ps-7/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
